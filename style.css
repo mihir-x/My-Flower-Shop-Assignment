@@ -12,7 +12,9 @@
     border-radius: 8px;
     border: none;
 }
-
+.colored-text{
+    color: #E55473;
+}
 
 
 
@@ -222,3 +224,18 @@ nav{
 
 
 /* footer styles */
+.footer{
+    height: 40vh;
+    margin-top: 30vh;
+    background-color: black;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    text-align: center;
+}
+.footer-description{
+    width: 40%;
+}
