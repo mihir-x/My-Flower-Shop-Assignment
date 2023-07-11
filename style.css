@@ -269,24 +269,24 @@ p{
     
 }
 /* ---------messed up block -------- */
-/* .sub-photo{ */
+/* .sub-photo{
     
-    /* position: relative; */
+    position: relative; 
     
 
-    /* width: 100%; */
-    /* height: 50%; */
-/* } */
+    width: 100%;
+    height: 50%;
+}
 /* ---------messed up block -------- */
 /* .sub-field{
     position: absolute;
-} */
+}   */
 .subscribe-title{
     /* margin-bottom: 15px; */
     font-size: 30px;
 }
 .subscribe-description{
-    /* margin-bottom: 20px; */
+    margin-bottom: 10px;
 }
 #email{
     width: 420px;
