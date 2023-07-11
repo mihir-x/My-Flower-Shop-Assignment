@@ -13,6 +13,9 @@
     border: none;
 }
 
+
+
+
 /* navigation bar styles */
 nav{
     height: 15vh;
@@ -35,6 +38,9 @@ nav{
     text-decoration: none;
     color:beige;
 }
+
+
+
 
 /* banner section styles */
 .banner-container{
@@ -61,6 +67,8 @@ nav{
 .banner-img{
     height: 100vh;
 }
+
+
 
 /* feature section styles */
 .feature-container{
@@ -124,6 +132,8 @@ nav{
     margin-bottom: 10px;
 }
 
+
+
 /* hot deal section styles */
 .deal-container{
     height: 45vh;
@@ -148,3 +158,67 @@ nav{
 .deal-photo{
     height: 35vh;
 }
+
+
+
+/* instagram subscription styles */
+.instagram-container{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8vh;
+    margin-top: 10vh;
+}
+.insta-description{
+    width: 70%;
+    margin-left: 13%;
+    margin-top: 10px;
+}
+.instagram-posts{
+    display: flex;
+    justify-content: space-between;
+}
+.insta-photo{
+    width: 20%;
+}
+.subscription{
+    /* background-image: url("./Rectangle9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sub-photo{
+    position: relative;
+    width: 100%;
+    /* height: 50%; */
+}
+.sub-field{
+    position: absolute;
+}
+.subscribe-title{
+    margin-bottom: 15px;
+}
+.subscribe-description{
+    margin-bottom: 20px;
+}
+#email{
+    width: 390px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+
+
+/* footer styles */
