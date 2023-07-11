@@ -9,13 +9,17 @@
     padding: 17px 40px;
     background-color: #E55473;
     color: white;
+    font-weight: 600;
+    /* font-size: 20px; */
     border-radius: 8px;
     border: none;
 }
 .colored-text{
     color: #E55473;
 }
-
+p{
+    color: rgba(39, 39, 39, 0.60);
+}
 
 
 /* navigation bar styles */
@@ -97,6 +101,10 @@
     justify-content: space-between ;
 
 }
+.feature-photo p{
+    color: #272727;
+    font-weight: 500;
+}
 .feature-photo-container{
     height: 100%;
     width: 280px;
@@ -132,6 +140,9 @@
     height: 50%;
     width: 20%;
     margin-bottom: 10px;
+}
+.feature-icon p{
+    color: rgba(39, 39, 39, 0.80);
 }
 
 
@@ -190,7 +201,7 @@
     height: 300px;
 }
 .val-form{
-    background-color: #E55473;
+    background-color: rgba(229,84,115,0.4);
     padding: 10px;
 }
 #input{
@@ -198,13 +209,16 @@
     height: 5vh;
     border:none;
     margin-bottom: 1vh;
+    border-radius: 5px;
 }
 #txt-input{
     border: none;
     height: 100px;
+    border-radius: 5px;
 }
 .val-btn{
-    border: 2px solid white;
+    margin: 10px;
+    
 }
 
 
@@ -237,34 +251,45 @@
     width: 20%;
 }
 .subscription{
-    /* background-image: url("./Rectangle9.png");
+    /* ---------messed up block -------- */
+    background-image: url("./FlowerAsset/Rectangle9.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 200px; */
+    /* height: 40vh; */
+    /* ---------messed up block -------- */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2vh;
+    padding-top: 14vh;
+    padding-bottom: 13vh;
     
 }
-.sub-photo{
-    position: relative;
-    width: 100%;
+/* ---------messed up block -------- */
+/* .sub-photo{ */
+    
+    /* position: relative; */
+    
+
+    /* width: 100%; */
     /* height: 50%; */
-}
-.sub-field{
+/* } */
+/* ---------messed up block -------- */
+/* .sub-field{
     position: absolute;
-}
+} */
 .subscribe-title{
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     font-size: 30px;
 }
 .subscribe-description{
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 #email{
-    width: 390px;
+    width: 420px;
     height: 50px;
     border: none;
     border-radius: 8px;
@@ -286,6 +311,15 @@
     gap: 4vh;
     text-align: center;
 }
+.footer-title{
+    font-size: 40px;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.80);
+}
 .footer-description{
     width: 40%;
+}
+.copyrights{
+    color: rgba(255, 255, 255, 0.40);
 }
