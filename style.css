@@ -152,6 +152,7 @@ nav{
 }
 .deal-title{
     margin-bottom: 3vh;
+    font-size: 30px;
 }
 .deal-description{
     margin-bottom: 2vh;
@@ -159,6 +160,51 @@ nav{
 }
 .deal-photo{
     height: 35vh;
+}
+
+
+/* valentine section styles */
+.valentine-container{
+    /* background-image: url(./FlowerAsset/val.jpg);
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: rgba(229,84,115,0.10);
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    text-align: center;
+}
+.val-title{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.val-register{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    align-items: center;
+}
+.val-photo{
+    height: 300px;
+}
+.val-form{
+    background-color: #E55473;
+    padding: 10px;
+}
+#input{
+    width: 100%;
+    height: 5vh;
+    border:none;
+    margin-bottom: 1vh;
+}
+#txt-input{
+    border: none;
+    height: 100px;
+}
+.val-btn{
+    border: 2px solid white;
 }
 
 
@@ -174,6 +220,9 @@ nav{
     text-align: center;
     gap: 8vh;
     margin-top: 10vh;
+}
+.instagram-title{
+    font-size: 30px;
 }
 .insta-description{
     width: 70%;
@@ -209,6 +258,7 @@ nav{
 }
 .subscribe-title{
     margin-bottom: 15px;
+    font-size: 30px;
 }
 .subscribe-description{
     margin-bottom: 20px;
