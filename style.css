@@ -123,3 +123,28 @@ nav{
     width: 20%;
     margin-bottom: 10px;
 }
+
+/* hot deal section styles */
+.deal-container{
+    height: 45vh;
+    width: 100%;
+    background-color: rgba(229,84,115,0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+}
+.hot-deals{
+    width: 40%;
+}
+.deal-title{
+    margin-bottom: 3vh;
+}
+.deal-description{
+    margin-bottom: 2vh;
+    line-height: 4vh;
+}
+.deal-photo{
+    height: 35vh;
+}
